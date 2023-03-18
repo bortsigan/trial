@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$long-hand: 'Cedarville Cursive', cursive;
+$montseratt: 'Montserrat', sans-serif;
+
+.home-design {
+
+    .header {
+        background: #C3F1E6;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .title {
+            font-size: 40px;
+            font-family: $long-hand;
+            color: #33a9a0;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            font-family: $montseratt;
+            color: #33a9a0;
+            padding-top: 20px;
+        }
+    }
+}
